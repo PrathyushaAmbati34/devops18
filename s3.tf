@@ -26,7 +26,7 @@ status = "Enabled"
 terraform {
 backend "s3" {
 region = "us-east-1"
-bucket = "mustafa77.flm77.moonobucket"
+bucket = "terraform-s3-bucket-psp1"
 key = "prod/terraform.tfstate"
 }
 }
