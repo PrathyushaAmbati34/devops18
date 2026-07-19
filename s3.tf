@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "terraform-s3-bucket-psp"
+  bucket = "terraform-s3-bucket-psp1"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
